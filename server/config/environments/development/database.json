@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds123635.mlab.com",
+        "port": "23635",
+        "srv": false,
+        "database": "trueworldfoods",
+        "username": "leemch",
+        "password": "yamajama1"
+      },
+      "options": {
+        "authenticationDatabase": "trueworldfoods"
+      }
+    }
+  }
+}
